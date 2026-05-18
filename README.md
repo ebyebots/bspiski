@@ -1,6 +1,6 @@
 # BSpiski: Country, L7 Anti-Flood 🛡️
 
-**BSpiski** — это автоматизированный скрипт для Linux (iptables/ipset), предназначенный для сбора, фильтрации и объединения баз IP-адресов из различных источников. Он подготавливает оптимизированные списки разрешенных («хороших») и заблокированных («плохих») сетей для организации **бесплатной защиты веб-сайта от DDoS-атак L7 HTTP Flood** на уровне ядра Linux.
+**BSpiski** — автоматизированный скрипт для **Linux (iptables/ipset)**, предназначенный для сбора, фильтрации и объединения баз IP-адресов из различных источников. Он подготавливает **белые списки** разрешенных («хороших») и заблокированных («плохих») сетей для организации **бесплатной защиты веб-сайта от DDoS-атак L7 HTTP Flood** на уровне ядра Linux. 
 
 Скрипт работает локально и идеально подходит для серверов с минимальной конфигурацией (**1 CPU и 1 ГБ RAM**).
 
@@ -28,11 +28,13 @@ The script runs locally and is perfectly optimized for entry-level server config
 
 ---
 
-## 💡 Кейс и Теория / Case Study & Theory
+## 💡 Кейс, установка и результаты / Case Study, Setup & Results
 
-> 🇷🇺 **Подробный разбор:** Подробнее о том, как реализовать этот метод на своём VPS абсолютно бесплатно, рассказано в блоге: [Белые списки по странам: бесплатная защита сайта от DDoS-атак L7 HTTP Flood](https://ebyebots.ru/blog/belye-spiski-po-stranam-besplatnaya-zashhita-sajta-ot-ddos-atak-l7-http-flood-na-servere-s-1-cpu-1-gb-ram).
+> 🇷🇺 Подробный разбор того, как установить скрипт, настроить конфигурацию и посмотреть финальные результаты защиты, детально описан в блоге:  
+> 👉 **[Белые списки по странам: бесплатная защита сайта от DDoS-атак L7 HTTP Flood](https://ebyebots.ru/blog/belye-spiski-po-stranam-besplatnaya-zashhita-sajta-ot-ddos-atak-l7-http-flood-na-servere-s-1-cpu-1-gb-ram)**
 
-> 🇬🇧 **Deep Dive Guide:** For a comprehensive guide on implementation theory, configuration, and kernel-level mechanics, check out the blog post: [Country Whitelists: Free Protection Against L7 HTTP Flood DDoS Attacks](https://ebyebots.ru/blog/belye-spiski-po-stranam-besplatnaya-zashhita-sajta-ot-ddos-atak-l7-http-flood-na-servere-s-1-cpu-1-gb-ram).
+> 🇬🇧 A comprehensive guide on how to install, configure the script, and analyze the live defense results is fully detailed in the blog post:  
+> 👉 **[Country Whitelists: Free Protection Against L7 HTTP Flood DDoS Attacks](https://ebyebots.ru/blog/belye-spiski-po-stranam-besplatnaya-zashhita-sajta-ot-ddos-atak-l7-http-flood-na-servere-s-1-cpu-1-gb-ram)**
 
 ---
 
@@ -43,3 +45,6 @@ Comprehensive setup and deployment manuals are available in separate files:
 
 * 🇷🇺 **[Читать документацию на русском языке (README_Russian.txt)](README_Russian.txt)**
 * 🇬🇧 **[Read the documentation in English (README_English.txt)](README_English.txt)**
+
+p.s Надеюсь решение будет кому то полезным ^_^
+Telegram: @ebyebots_support
