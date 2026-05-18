@@ -1,6 +1,4 @@
-================================================================================
-  BSpiski: Country, L7 Anti-Flood — GUIDE (ENGLISH)
-================================================================================
+BSpiski: Country, L7 Anti-Flood — GUIDE (ENGLISH)
 
 The script builds whitelists (allowed networks for the site) and black drop-lists
 (IPs and networks to block), then saves ready-to-use files for the server.
